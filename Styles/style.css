@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body {
+  line-height: 1.9;
+  color: rgb(5, 5, 5);
+  margin: 0;
+}
+.nav {
+  background-color: rgb(176, 211, 206);
+  color: white;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  grid-template-rows: 69px;
+  font-size: 24px;
+}
+.nav__user {
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+.nav form button {
+  height: 100%;
+  width: 100%;
+  border: 100%;
+}
+.sayHello{
+font-size: 50px;
+margin: 0 auto;
+width: 500px;
+font-family: 'Teko', sans-serif;
+}
